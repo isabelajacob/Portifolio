@@ -1,85 +1,150 @@
-.navbar{
-    display: flex;
-    flex-flow: row wrap ;
-    background-color:rgb(0, 86, 156);
-    padding: 15px;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    border: 4px solid rgb(0, 0, 0);
+html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
 }
-.logo{
-    flex: 5px;
+
+    header{
+        width: 100%;
+        height: 10%;
+        background-color: blueviolet;
+        border: 4px solid black;
+    }
+     
+    .icone_nome{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
-}
-.nome{
-    padding: 10px;
-    font-family: "Lobster", sans-serif;
-    font-size: 30px;
-    color: white;
-    align-items: center;
-    text-align: left;
+    .icone{
+        width: 50px;
+        height: 50px;
+        margin-right: 5px;
+    }
+    main{
+        width: 100%;
+        height: 80%;
+        background-color: rgb(226, 43, 43);  
+        border: 4px solid black;
+    }
 
-}
-.icon{
-    width: 55px;
-}
-.menu{
-  
-   flex: auto;
-}
+    footer{
+        width: 100%;
+        height: 10%;
+        background-color: rgb(43, 226, 73); 
+        border: 4px solid black;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
 
-.menu a{
-    padding: 20px;
-    text-decoration: none;
-    font-family: "Poppins", serif;
-    font-weight: 200;
-    color:rgb(255, 255, 255);
-    font-size: 25px;
+    .esquerda{
+        float: left;
+        width: 20%;
+        height: 100%;
+        background-color: chartreuse;
+        display: block; 
+        place-items: center;
+    }
     
-}
+    .bloco1, .bloco4 {
+        width: 50%;
+        height: 30%;
+        background-color: rgb(255, 255, 255);
+        margin-top: 20px;
+        border: 4px solid black;
+        text-align: center;
+    }
 
+    .bloco2, .bloco3, .bloco5, .bloco6 {
+        width: 50%;
+        height: 30%;
+        background-color: rgb(255, 255, 255);
+        margin-top: 10px;
+        border: 4px solid black;
+        text-align: center;
+    }
 
-.menu a:hover{
-    color:rgba(0, 0, 0, 0.562);
-    border-top: 4px solid rgba(0, 0, 0, 0.562);
-    padding: 25px 25px;
-    font-weight: 600;
+    .centro{
+        width: 60%;
+        height: 100%;
+        background-color: rgb(234, 0, 255);
+        float: left;
+        justify-content: center;
+        align-items: center;
+        display: block; 
+        place-items: center;
+        
+    }
+
+    .font_centro{
+     margin-top: 5%;
+     font-size: 30px;
+    }
+    
+    .avatar{
+        width: 500px;
+        height: 500px;
+        border: 4px solid black;
+        background-color: rgb(255, 255, 255); 
+    }
+
+    .direita{
+        float: right;
+        width: 20%;
+        height: 100%;
+        background-color: chartreuse;
+        display: block; 
+        place-items: center;
+    }
+
+    .redes{
+        width: 10%;
+        height: 50%;
+        display: flex;
+        place-items: center;
+        
+    }
+    
+    .email{
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+    }
    
-}
+    .instagram{
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+    }
 
-.header{
-    height: 90x;
-    background: rgb(1, 49, 71);
+    .linkedin{
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+    }
+
+    .whatsapp{
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+        
+    }
+
+    .github{
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+        
+    }
     
-}
-.menu a.active{
-    border-top: 4px solid rgb(0, 0, 0);
-    color:rgb(0, 0, 0);
-    font-weight: 600;
-}
-.navbar_sobre{
-    display: flex;
-    flex-flow: row wrap ;
-    background-color:#B9092E;
-    padding: 15px;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    border: 4px solid rgb(0, 0, 0);
-}
+    .email:hover, .instagram:hover, .linkedin:hover, .whatsapp:hover, .github:hover{
+        transform: scale(1.1);
+    }
 
-.navbar_portifolio{
-    display: flex;
-    flex-flow: row wrap ;
-    background-color:#0fb909;
-    padding: 15px;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    border: 4px solid rgb(0, 0, 0);
-}
+    
 
-body{
-    background-color: rgb(255, 255, 255);
-}
