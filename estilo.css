@@ -1,0 +1,232 @@
+    html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            scrollbar-width: none;
+            background-image:linear-gradient(rgb(33, 160, 177), rgb(79, 204, 204));
+            overflow-x: hidden;
+            scrollbar-width: none;
+    }
+    
+    .head_rede{
+        display: flex;
+        margin-top: 5%;
+        height: 5%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    
+    
+    .email, .instagram, .linkedin, .whatsapp, .github, .email{
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+    } 
+    .email:hover, .instagram:hover, .linkedin:hover, .whatsapp:hover, .github:hover{
+        transform: scale(1.1);
+    }
+   .icone_nome{
+    color: aliceblue;
+    display: flex;
+    margin-top: 5%;
+    height: 5%;
+    width: 100%;    
+    justify-content: center;
+    align-items: center;
+    font-family:"Poppins", sans-serif;
+
+   }
+    .icone{
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    main{
+        width: 100%;
+        height: 100%;   
+    }
+    
+    .esquerda{
+        float: left;
+        width: 20%;
+        height: 100%;
+        display: block; 
+        place-items: center;
+        overflow-x: hidden;
+        scrollbar-width: none;
+        
+    } 
+    .bloco1, .bloco4 {
+        width: 50%;
+        height: 25%;
+        background-color: rgb(255, 255, 255);
+        margin-top: 40px;
+        border: 4px solid black;
+        overflow-x: hidden;
+        scrollbar-width: none;
+        align-items: center;
+        justify-content: center;
+    }
+    .texto_bloco{
+        font-size: 20px;
+        text-align: center;
+        width: 80%;
+        margin-left: 30px;
+        font-family:"Poppins", sans-serif;
+        font-weight: 550;
+    }
+    .bloco2, .bloco3, .bloco5, .bloco6{
+        width: 50%;
+        height: 25%;
+        background-color: rgb(255, 255, 255);
+        margin-top: 40px;
+        border: 4px solid black;
+        text-align: center;
+        font-size: 20px;
+        overflow-x: hidden;
+        scrollbar-width: none;
+        align-items: center;
+        justify-content: center;
+    }  
+    
+    .bloco1:hover, .bloco2:hover, .bloco3:hover, .bloco4:hover, .bloco5:hover, .bloco6:hover, .bloco1_foto:hover{
+        transform: scale(1.1);
+    }  
+    .centro{
+        width: 60%;
+        height: 100%;
+        float: left;
+        justify-content: center;
+        align-items: center;
+        display: block; 
+        place-items: center;
+        overflow-x: hidden;
+        scrollbar-width: none;   
+    }
+    .font_centro{
+     font-size: 30px;
+
+    }
+    
+    .avatar{
+        width: 500px;
+        height: 500px;
+        border: 4px solid black;
+        background-color: rgb(255, 255, 255); 
+    }
+    .direita{
+        float: right;
+        width: 20%;
+        height: 100%;
+        display: block; 
+        place-items: center;
+        overflow-x: hidden;
+        scrollbar-width: none;
+        background-image:linear-gradient(rgb(33, 160, 177), rgb(79, 204, 204));
+    }
+    
+    .porti{
+        width: 90%;
+        height: 130%;
+        margin-top: 15px;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .caixa1{
+        text-align: center;
+        background: rgb(255, 255, 255);
+        width: 150px;
+        height: 200px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);   
+    }
+    .caixa2, .caixa3, .caixa4, .caixa5, .caixa6{
+        text-align: center;
+        background: rgb(255, 255, 255);
+        width: 150px;
+        height: 200px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);   
+        margin-left: 15px;
+    }
+    .java, .mysql, .html, .css, .python, .js{
+        width: 100px;
+        height: 100px;
+        margin-top: 25px;
+    }
+    .bloco_conhecimento{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10%;
+        margin-top: 40px;
+    }
+    .caixa1:hover, .caixa2:hover, .caixa3:hover, .caixa4:hover, .caixa5:hover, .caixa6:hover, .caixa7:hover, .caixa8:hover, .caixa9:hover, .caixa10:hover, .caixa11:hover{
+        transform: scale(1.1);
+    }
+    .caixa7, .caixa8, .caixa9{
+        text-align: center;
+        background: rgb(255, 255, 255);
+        width: 350px;
+        height: 350px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+        margin-left: 25px; 
+         
+    }
+    .caixa10, .caixa11{
+        text-align: center;
+        background: rgb(255, 255, 255);
+        width: 380px;
+        height: 350px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+        margin-left: 25px;     
+    }
+    .link{
+        text-decoration:none ;
+        font-size: 26px;
+        color: black;
+        font-family:"Poppins", sans-serif;
+    }
+    .link:hover{
+        color: rgb(193, 37, 37);
+        font-weight: 600;
+    }
+    .ano{
+        font-size: 20px;
+    }
+    .arduino, .baduck, .martcode,  .etec, .facens{
+        width: 350px;
+        height: 200px;
+    }
+    .projetos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10%;
+        margin-top: 40px;
+    }
+
+    .curso{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10%;
+        margin-top: 40px;
+    }
+    .titulo{
+        font-family:"Poppins", sans-serif;
+        font-size: 40px;
+        margin-top: 70px;
+        font-weight: 400;
+    }
+    .titulo3{
+        font-family:"Poppins", sans-serif;
+        font-size: 40px;
+        margin-top: 35px;
+        font-weight: 400; 
+    }
+    .texto_projeto{
+        font-size: 18px;
+    }
+    
